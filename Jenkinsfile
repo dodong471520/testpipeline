@@ -8,4 +8,7 @@ pipeline {
     }
 
   }
+  environment {
+    aaa = '11'
+  }
 }
