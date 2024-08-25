@@ -2,6 +2,10 @@ pipeline {
   agent any
   stages {
     stage('aa') {
+      agent any
+      environment {
+        bbbbb = '222'
+      }
       steps {
         sh 'echo \'aa\''
       }
@@ -9,6 +13,6 @@ pipeline {
 
   }
   environment {
-    aaa = '11'
+    tempdir = '11'
   }
 }
