@@ -13,6 +13,6 @@ pipeline {
 
   }
   environment {
-    tempdir = '11'
+    aaaa = '11'
   }
 }
