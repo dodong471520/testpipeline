@@ -7,7 +7,7 @@ pipeline {
         bbbbb = '222'
       }
       steps {
-        sh 'echo \'aa\''
+        sh 'echo params.aaa'
       }
     }
 
